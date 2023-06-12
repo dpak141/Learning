@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 570px;
+}
+
+span {
+    font-weight: 900;
+    display: block;
+    color: #99d930;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.small-text {
+    margin-top: 0;
+    font-size: 16px;
+    color: #99d930;
+}
+
+a {
+    color: #99d930;
+
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+.articles {
+    background-color: #eaf9ff;
+}
+
+header {
+    background-color: #d7d7d7;
+}
+
+.inverse {
+    background-color: #252525;
+    color: #fff;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background-color: #fff;
+    color: #252525;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.btn {
+    background-color: #99d930;
+    color: #252525;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #252525;
+    color: #fff;
+}
