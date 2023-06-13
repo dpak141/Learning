@@ -23,7 +23,7 @@ function render() {
 }
 
 deleteBtn.addEventListener("dblclick", function () {
-  localStorage.clear;
+  localStorage.clear();
   myLeads = [];
   render(myLeads);
 });
