@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+html {
+    height: 100vh;
+    font-family: 'baloo 2', sans-serif;
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+body {
+    margin: 0;
+    display: block;
+    background-image: linear-gradient(#5DA4D9, #FFF);
+    text-align: center;
+}
+
+#emoji-input {
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;
+    font-size: 22px;
+    font-family: 'baloo 2', sans-serif;
+}
+
+#emoji-container {
+    font-size: 100px;
+    padding: 20px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 20px;
+    background-color: rgb(109, 212, 109);
+    color: white;
+    font-family: 'baloo 2', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#shift-btn,
+#pop-btn {
+    background-color: rgb(220, 57, 57);
+}
