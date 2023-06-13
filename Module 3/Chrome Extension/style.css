@@ -6,7 +6,6 @@ body {
 
 button {
     background-color: #5f9341;
-    display: block;
     color: #fff;
     padding: 10px 30px;
     margin-top: 10px;
@@ -20,4 +19,10 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid;
+}
+
+#delete-btn {
+    background-color: #fff;
+    border: 1px solid #5f9341;
+    color: #5f9341;
 }
