@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: rgb(178, 235, 154);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.players {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.dice {
+    background-color: #fbc2c6;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 4rem;
+    padding: 3rem;
+}
+
+.dice-active {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+#resetBtn,
+#rollBtn {
+    background-color: #EF8189;
+    border: none;
+    height: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    width: 9rem;
+
+    cursor: pointer;
+    color: #fff;
+    margin: 0 auto;
+
+}
+
+#resetBtn {
+    background-color: green;
+    display: none;
+}
